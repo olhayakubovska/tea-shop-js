@@ -1,0 +1,179 @@
+.container {
+  max-width: 1600px;
+  margin: 0 auto; /* Центрирование */
+  padding: 0 15px; /* Отступы по бокам */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 200px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+}
+.control_panel {
+  display: flex;
+  gap: 100px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+}
+.site-header {
+  position: relative;
+  margin-top: 20px;
+  /* z-index: 5; */
+}
+.image_title {
+  position: absolute;
+  top: 230px;
+  left: 200px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 56px;
+  font-family: "Cormorant", serif;
+  line-height: 1;
+}
+.image-card__subtitle {
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Cormorant", serif;
+  line-height: 1.3;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-family: "Cormorant", serif;
+  color: #000000;
+  font-size: 56px;
+  line-height: 1.3;
+}
+
+.title_h2 {
+    margin: 100px;
+
+  text-align: center;
+  font-family: "Cormorant", serif;
+  font-size: 50px;
+}
+
+.cards-list {
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.tea-name {
+  font-family: "Cormorant", serif;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+
+/* .opinion-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.user-name {
+  font-weight: 700;
+} */
+
+.title_h2 {
+    font-size: 50px;
+    color: #333; /* Цвет заголовка */
+  text-align: center; /* Центрирование заголовка */
+  font-family: "Cormorant", serif;
+  padding: 80px 0 30px;
+
+}
+
+.title_opinions{
+    font-size: 50px;
+    color: #333; /* Цвет заголовка */
+  text-align: center; /* Центрирование заголовка */
+  font-family: "Cormorant", serif;
+    padding: 80px 0 30px;
+}
+.opinion-cards {
+  display: flex; 
+  flex-direction: column;
+  gap: 10px;
+    width: 280px;
+  height: auto; 
+  margin: 0 auto;
+  /* justify-content: center; */
+}
+
+.comment-style {
+  display: flex;
+  padding: 10px;
+  /* justify-content: center;
+  align-items: center; */
+  border: 1px solid black;
+  /* width: 280px;
+  height: auto; */
+}
+/* .opnion-card {
+    background-color: #fff;
+    padding: 15px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
+} */
+
+/* .user-name {
+    margin-top: 10px; 
+    font-weight: bold; 
+    text-align: right; 
+    color: #555;
+} */
+.opinions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f5f5dc; /* Бледно-бежевый цвет фона */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Небольшая тень для глубины */
+}
+.input-text {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-text:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+.show-more {
+    background: none;
+    border: none;
+    display: flex;
+    /* color: #007bff; */
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
